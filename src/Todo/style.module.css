@@ -1,0 +1,41 @@
+.container {
+  padding: 24px 62px;
+  background-color: rgb(255, 255, 255, 0.1);
+  box-shadow: rgb(0, 0, 0, 0.1) 0px 0px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.text {
+  font-size: 24px;
+  color: #fff;
+}
+
+.editBtn,
+.deleteBtn {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.btn:first-child {
+  margin-right: 6px;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.editWrapper {
+  display: flex;
+  gap: 6px;
+}
+
+.editWrapper button {
+  padding: 0 20px;
+}

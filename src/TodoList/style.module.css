@@ -1,0 +1,64 @@
+.container {
+  width: 45%;
+  margin: 0 auto;
+  background-color: #f97c6a;
+  padding: 62px 0;
+}
+
+.header {
+  border-bottom: 2px solid rgb(255, 255, 255, 0.3);
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  margin: 0 62px 52px;
+}
+
+.title {
+  font-size: 62px;
+  margin-bottom: 14px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.todoWrapper {
+  margin-bottom: 52px;
+}
+
+.todoListWrapper {
+  margin: 0 62px;
+}
+
+.todoListWrapper h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.todoListWrapper div {
+  display: flex;
+  gap: 6px;
+}
+
+.input {
+  flex: 5;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  flex: 2;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2;
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+}

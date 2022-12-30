@@ -1,0 +1,12 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #79b6e6,
+    #afb9e6,
+    #d1bfde,
+    #e1cad8,
+    #e5d8da
+  );
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
