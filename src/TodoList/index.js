@@ -32,6 +32,7 @@ export class index extends Component {
     this.setState({
       todos: newTodos,
     });
+    localStorage.setItem("todos", JSON.stringify(newTodos));
   }
 
   saveNewTodo(newText, index) {
@@ -40,6 +41,7 @@ export class index extends Component {
     this.setState({
       todos,
     });
+    localStorage.setItem("todos", JSON.stringify(todos));
   }
 
   setTodoText(e) {
@@ -55,6 +57,14 @@ export class index extends Component {
       isCompleted: false,
     };
     todos.push(todo);
+    this.setState({
+      todos,
+    });
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }
+
+  componentDidMount() {
+    const todos = JSON.parse(localStorage.getItem("todos")) || [];
     this.setState({
       todos,
     });
